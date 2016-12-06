@@ -3,12 +3,12 @@ Convert GreenSock SVG Timeline Animations to GIF
 
 ## Notes
 
-* Add the library to your project using a normal JavaScript ```script``` tag.
+* Add ```SVG2GIF.min.js``` to your project using a normal JavaScript ```script``` tag.
 * SVG2GIF renders SVG animations animated inline with GreenSock TimelineMax.
 * You must add a class name to the SVG tag you want to convert.
 * If you don't already, you should create a main timeline and add all and any of your timelines to it
-* Ensure that ```repeat:0``` on your timelines so that it plays only once
-* In the ```vars``` for the main parent timeline add in ```SVG2GIF:true``` - this notifies SVG2GIF that this is the timeline you wish to render.
+* Ensure that ```repeat:0``` is set on your timelines so that it plays only once
+* In the ```vars``` for the main parent timeline add in ```SVG2GIF:true``` - this notifies SVG2GIF that this is the timeline you wish to render. E.g. ```var mainTl = new TimelineMax({repeat:0, SVG2GIF:true});```
 
 ### SVG2GIF uses the following libraries
 * [HTML2Canvas](https://github.com/niklasvh/html2canvas)
