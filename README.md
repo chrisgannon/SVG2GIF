@@ -13,3 +13,6 @@ Convert GreenSock SVG Timeline Animations to GIF
 * [HTML2Canvas](https://github.com/niklasvh/html2canvas)
 * [Gif.js](https://jnordberg.github.io/gif.js/)
 * GreenSock's [Draggable](http://greensock.com/draggable)
+
+### Demo
+See it in action on CodePen [here](http://codepen.io/chrisgannon/pen/0e3f0e3af985e1c6949e70e4c8ed4df7)
